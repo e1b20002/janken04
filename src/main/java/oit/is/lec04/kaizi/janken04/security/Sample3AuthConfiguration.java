@@ -46,6 +46,7 @@ public class Sample3AuthConfiguration {
     // 生成したユーザをImMemoryUserDetailsManagerに渡す（いくつでも良い）
     return new InMemoryUserDetailsManager(user1, user2, admin);
   }
+
   /**
    * 認可処理に関する設定（認証されたユーザがどこにアクセスできるか）
    *
